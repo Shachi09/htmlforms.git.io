@@ -1,0 +1,105 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      #form{
+        background-color: chartreuse;
+      }
+      #personal{
+        color: crimson;
+      }
+      #edu{
+        color: crimson;
+      }
+
+    </style>
+</head>
+<body id="form">
+     <label for="search">search</label>
+     <input type="search" name="search" id="search" placeholder="eg.,show results"> <br><br>
+    <label id="personal">Personal Details</label><br><br>
+    
+    <label for="name">First Name:</label>
+    <input type="text" placeholder="name" name="fname" id="name" required><br><br>
+
+    <label for="surname">Last Name:</label>
+    <input type="text" placeholder="surname" name="sname" id="surname" required><br><br>
+
+    <label for="email">email id:</label>
+    <input type="email" name="email" id="email"><br><br>
+
+    <label for="pass">Password</label>
+    <input type="password" name="password" id="pass" required><br><br>
+
+    <label for="">Gender:</label>
+
+     <label for="male">Male</label>
+     <input type="radio" name="gender" id="male">
+
+     <label for="female">Female</label>
+     <input type="radio" name="gender" id="female">
+
+     <label for="other">Other</label>
+     <input type="radio" name="gender" id="other"><br><br>
+
+    <label for="phone">Contact no. - </label>
+    <input type="tel" name="phone" id="phone"> <br><br><br><br>
+
+    <label id="edu">Educational Details</label><br><br>
+
+    <label for="degree">Degree:</label>
+    <input list="degree" name="degree" placeholder="Choose your degree">
+      <datalist id="degree">
+        <option value="BSc"></option>
+        <option value="BCA"></option>
+        <option value="BA"></option>
+        <option value="CA"></option>
+        <option value="Masters"></option>
+     </datalist><br><br>
+
+     <label for="hobbies">Hobbies:</label>
+
+     <label for="hobbies">Reading Books</label>
+     <input type="checkbox" id="hobbies" name="hob1" value="Reading Books">
+     
+     <label for="hobbies">Playing Chess:</label>
+     <input type="checkbox" id="hobbies" name="hob2" value="Playing Chess"><br><br>
+
+     <label for="dob">Birth date:</label>
+     <input type="date" id="dob" name="dob" value="dob"><br><br><br><br>
+
+     <label for="address">Address:</label><br><br>
+     <textarea name="Address" id="address" cols="30" rows="10"></textarea><br><br>
+
+     <label for="file">Choose file:</label>
+     <input type="file" id="file" name="file"><br><br>
+
+     <label for="favcolor">color</label>
+     <input type="color" name="favcolor"><br>
+
+     <label for="book">number of books:</label>
+     <input type="number" name="book" id="book"><br><br>
+
+     
+
+     
+     <input type="submit" id="send" name="submit">
+     <input type="reset" id="reset" name="reset">
+
+
+
+
+
+
+    
+
+
+
+
+
+
+</body>
+</html>
